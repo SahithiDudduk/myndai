@@ -1,0 +1,15 @@
+.dietary-selection-container {
+    padding: 20px;
+    background: #FFF5EE;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Add additional styles as needed */
+  

@@ -1,0 +1,43 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.split-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh; /* Adjust if needed */
+}
+
+.text-section,
+.image-section {
+  flex: 1; /* Both sections take up equal width */
+  box-sizing: border-box; /* Ensure padding and borders are included in width/height calculations */
+}
+
+.text-section {
+  padding: 20px;
+  text-align: left;
+  background-color: #f4f4f4; /* Optional: Background color for better visibility */
+}
+
+.image-section {
+  display: flex;
+  align-items: center; /* Center image vertically */
+  justify-content: center; /* Center image horizontally */
+  background-color: #eaeaea; /* Optional: Background color for better visibility */
+}
+
+.home-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.additional-info {
+  max-width: 800px;
+  margin: 20px auto; /* Center and add margin around additional info */
+  padding: 20px;
+}

@@ -1,0 +1,59 @@
+/* Header.css */
+
+header {
+  background-color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  align-items: center; /* Center items vertically */
+}
+
+nav {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Align logo vertically */
+  margin-right: 20px; /* Space between logo and company name */
+}
+
+.logo-image {
+  height: 40px; /* Adjust as needed */
+}
+
+.company-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000; /* Adjust color as needed */
+  text-decoration: underline; /* Underline the company name */
+  margin-right: 20px; /* Space between company name and navigation links */
+}
+
+.nav-links {
+  margin-right: auto; /* Push the Sign In button to the right */
+  display: flex; /* Align navigation links inline */
+  align-items: center; /* Center navigation items vertically */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000; /* Adjust color as needed */
+  margin-right: 20px; /* Space between navigation items */
+}
+
+.signin-button {
+  background-color: #007bff; /* Bootstrap primary color or adjust as needed */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right:10px;
+}
+
+.signin-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}

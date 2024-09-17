@@ -1,0 +1,27 @@
+.personalize-experience {
+  padding: 20px;
+  background-color: #FFF5EE;
+  text-align: center;
+}
+
+.personalize-experience h1 {
+  margin-bottom: 20px;
+}
+
+.section-button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 18px;
+  color: #000;
+  background-color: #FFC107; /* Adjust as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.section-button:hover {
+  background-color: #ff9800; /* Adjust as needed */
+}

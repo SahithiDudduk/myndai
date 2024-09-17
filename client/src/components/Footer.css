@@ -1,0 +1,27 @@
+/* Ensure html and body take up the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0; /* Remove default margin */
+}
+
+/* Ensure the wrapper takes full viewport height */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Main content area grows to push footer down */
+main {
+  flex: 1; /* This allows the main content to grow and push the footer to the bottom */
+}
+
+/* Footer styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  height: 17px;
+  padding-bottom: 20px;
+}
