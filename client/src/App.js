@@ -12,6 +12,11 @@ import GenderSelection from './pages/GenderSelection';
 import DietarySelection from './pages/DietarySelection';
 import MedicalCondition from './pages/MedicalCondition';
 import GoalSetting from './pages/GoalSetting';
+import AgeSelection from './pages/AgeSelection';
+import WeightSelection from './pages/WeightSelection';
+import HeightSelection from './pages/HeightSelection';
+import Bmi from './pages/Bmi'; // adjust path based on actual structure
+
 import './App.css';
 
 function App() {
@@ -28,6 +33,11 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/personalize" element={<PersonalizeExperience />} />
             <Route path="/gender" element={<GenderSelection />} />
+            <Route path="/age" element={<AgeSelection />} />
+            <Route path="/weight" element={<WeightSelection />} />
+            <Route path="/height" element={<HeightSelection />} />
+            <Route path="/bmi" element={<Bmi/>} />
+
             <Route path="/dietary" element={<DietarySelection />} />
             <Route path="/medical" element={<MedicalCondition />} />
             <Route path="/goals" element={<GoalSetting />} />

@@ -1,0 +1,33 @@
+.weight-selection-container {
+    padding: 16px;
+    background-color: var(--background-color); /* Adjust according to your theme */
+  }
+  
+  .weight-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-text-color); /* Adjust according to your theme */
+    margin-bottom: 24px;
+  }
+  
+  .weight-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .weight-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: var(--button-background); /* Define this in your CSS */
+    color: var(--button-text-color); /* Define this in your CSS */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 8px; /* Space between buttons */
+    cursor: pointer;
+  }
+  
+  .weight-button:hover {
+    opacity: 0.8; /* Change appearance on hover */
+  }
+  

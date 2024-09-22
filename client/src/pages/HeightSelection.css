@@ -1,0 +1,48 @@
+.height-selection-container {
+    padding: 16px;
+    background-color: var(--background-color); /* Adjust according to your theme */
+  }
+  
+  .height-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-text-color); /* Adjust according to your theme */
+    margin-bottom: 24px;
+  }
+  
+  .height-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .height-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: var(--button-background); /* Define this in your CSS */
+    color: var(--button-text-color); /* Define this in your CSS */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 8px; /* Space between buttons */
+    cursor: pointer;
+  }
+  
+  .height-button:hover {
+    opacity: 0.8; /* Change appearance on hover */
+  }
+
+  .bmi-result {
+    margin-top: 24px;
+    color: var(--primary-text-color); /* Adjust according to your theme */
+  }
+  
+  .back-button {
+    margin-top: 16px;
+    padding: 10px 20px;
+    background: var(--button-background); /* Define this in your CSS */
+    color: var(--button-text-color); /* Define this in your CSS */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+  }
+  

@@ -1,8 +1,18 @@
 .signup-container {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #FFFFED;
+}
+
+.signup-form-container {
+  width: 400px;
   padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 .signup-form {
@@ -10,27 +20,34 @@
   flex-direction: column;
 }
 
-.signup-form label {
-  margin-bottom: 15px;
+.form-group {
+  margin-bottom: 20px;
 }
 
-.signup-form input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  box-sizing: border-box;
+.input-group {
+  display: flex;
+  align-items: center; /* Aligns input and button in the same row */
 }
 
-.signup-button {
+input[type="email"], input[type="password"], input[type='mobileNumber'],input[type='username'],input[type='confirmPassword'] {
+  width: 70%; /* Adjust the width to fit input and button */
   padding: 10px;
-  background-color: #007bff;
+  margin-right: 10px; /* Space between input and button */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.continue-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
   color: white;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-.signup-button:hover {
-  background-color: #0056b3;
+.continue-button:hover {
+  background-color: #45a049;
 }
 
 .error-message {
@@ -39,4 +56,10 @@
 
 .success-message {
   color: green;
+}
+
+/* Password Strength Bar below the form */
+.password-strength-container {
+  margin-top: 20px;
+  width: 400px;
 }
