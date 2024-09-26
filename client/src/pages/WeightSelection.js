@@ -1,33 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './WeightSelection.css'; // Import your styles
+import './WeightSelection.css';
 
-function WeightSelection() {
+function WeightSelection({ setCompletedSteps }) {
   const navigate = useNavigate();
+  const [selectedWeight, setSelectedWeight] = useState(null);
 
   const handleWeightSelect = (weight) => {
-    // Save the selected weight in local storage or a global state if needed
     localStorage.setItem('selectedWeight', weight);
+    setSelectedWeight(weight);
+    setCompletedSteps((prev) => {
+      const updatedSteps = [...prev];
+      updatedSteps[2] = true; // Mark weight step as completed
+      return updatedSteps;
+    });
     navigate('/height');
   };
 
   return (
     <div className="weight-selection-container">
       <h1 className="weight-title">Select Your Weight</h1>
-
       <div className="weight-buttons">
-        <button className="weight-button" onClick={() => handleWeightSelect(50)}>
-          50 kg
-        </button>
-        <button className="weight-button" onClick={() => handleWeightSelect(60)}>
-          60 kg
-        </button>
-        <button className="weight-button" onClick={() => handleWeightSelect(70)}>
-          70 kg
-        </button>
-        <button className="weight-button" onClick={() => handleWeightSelect(80)}>
-          80 kg
-        </button>
+        {[50, 60, 70, 80].map((weight) => (
+          <button
+            key={weight}
+            className={`weight-button ${selectedWeight === weight ? 'selected' : ''}`}
+            onClick={() => handleWeightSelect(weight)}
+          >
+            {weight} kg
+          </button>
+        ))}
       </div>
     </div>
   );

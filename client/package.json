@@ -36,7 +36,9 @@
         ]
     },
     "engines": {
-  "node": "16.x"
-}
-
+        "node": "16.x"
+    },
+    "devDependencies": {
+        "concurrently": "^9.0.1"
+    }
 }

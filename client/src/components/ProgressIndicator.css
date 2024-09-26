@@ -1,0 +1,24 @@
+/* ProgressIndicator.css */
+.progress-indicator {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .filled {
+    background-color: #4caf50; /* Change this to your desired color */
+    color: white;
+  }
+  

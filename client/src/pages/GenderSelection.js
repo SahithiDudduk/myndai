@@ -2,13 +2,21 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './GenderSelection.css';
 
-function GenderSelection() {
+function GenderSelection({ setCompletedSteps }) {
   const navigate = useNavigate();
 
   const handleGenderSelect = (gender) => {
     console.log(`Selected gender: ${gender}`);
-    // Navigate to AgeSelection after selecting gender
-    navigate('/age');
+    // Update completed steps
+    setCompletedSteps((prev) => {
+      const updatedSteps = [...prev];
+      updatedSteps[0] = true; // Mark gender step as completed
+      return updatedSteps;
+    });
+    // Navigate to AgeSelection
+    setTimeout(() => {
+      navigate('/age');
+    }, 500);
   };
 
   return (
