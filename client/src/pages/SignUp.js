@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import PasswordStrengthBar from 'react-password-strength-bar';
 import { ReactTyped } from 'react-typed';
 import './SignUp.css';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import PersonalizeExperience from './PersonalizeExperience'; // Import GenderSelection
+import { useNavigate } from 'react-router-dom'; 
+import PersonalizeExperience from './PersonalizeExperience';
 
 function SignUp() {
-  const navigate = useNavigate(); // Initialize useNavigate
-
+  const navigate = useNavigate();
   const [step, setStep] = useState(1);
   const [email, setEmail] = useState('');
   const [mobileNumber, setMobileNumber] = useState('');
@@ -17,70 +16,47 @@ function SignUp() {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
   const [showInput, setShowInput] = useState(false);
-  const [isRegistered, setIsRegistered] = useState(false); // New state
+  const [isRegistered, setIsRegistered] = useState(false);
+  const [loading, setLoading] = useState(false); // Loading state
 
   const handleContinue = () => {
     setError('');
-
-    // Validation logic for each step
-    if (step === 1 && !email) {
-      setError('Please enter a valid email.');
-      return;
-    }
-
-    if (step === 2 && !mobileNumber) {
-      setError('Please enter a valid mobile number.');
-      return;
-    }
-
-    if (step === 3 && !username) {
-      setError('Please enter a username.');
-      return;
-    }
-
-    if (step === 4 && !password) {
-      setError('Please enter a valid password.');
-      return;
-    }
-
-    if (step === 5 && password !== confirmPassword) {
-      setError('Passwords do not match.');
-      return;
-    }
-
+    if (step === 1 && !email) return setError('Please enter a valid email.');
+    if (step === 2 && !mobileNumber) return setError('Please enter a valid mobile number.');
+    if (step === 3 && !username) return setError('Please enter a username.');
+    if (step === 4 && !password) return setError('Please enter a valid password.');
+    if (step === 5 && password !== confirmPassword) return setError('Passwords do not match.');
     setStep(step + 1);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     try {
       const userData = { mobileNumber, email, username, password };
-      console.log('Submitting user data:', userData);
-
-      const response = await fetch('http://localhost:5000/api/register', {
+      const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+  
+      const response = await fetch(`${API_URL}/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(userData),
       });
-
+  
       if (!response.ok) {
         const errorData = await response.json();
-        console.error('Registration error:', errorData);
         setError(errorData.message || 'Registration failed.');
         return;
       }
-
+  
       const data = await response.json();
       setSuccess(data.message);
-      setError('');
-      setIsRegistered(true); // Set registration state to true
+      setIsRegistered(true);
       navigate('/personalize');
-
     } catch (error) {
       setError('An error occurred during registration.');
     }
   };
+  
 
   return (
     <div className="signup-container">
@@ -97,7 +73,7 @@ function SignUp() {
       ) : (
         <div className="signup-form-container">
           {isRegistered ? (
-            <PersonalizeExperience /> // Render GenderSelection after successful registration
+            <PersonalizeExperience />
           ) : (
             <form className="signup-form" onSubmit={handleSubmit}>
               {/* Step 1: Enter Email */}
@@ -109,10 +85,10 @@ function SignUp() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    disabled={step > 1}
+                    disabled={step > 1 || loading}
                   />
                   {step === 1 && (
-                    <button type="button" className="continue-button" onClick={handleContinue}>
+                    <button type="button" className="continue-button" onClick={handleContinue} disabled={loading}>
                       Continue
                     </button>
                   )}
@@ -125,14 +101,14 @@ function SignUp() {
                   <label>Enter your mobile number*</label>
                   <div className="input-group">
                     <input
-                      type="mobileNumber"
+                      type="text"
                       value={mobileNumber}
                       onChange={(e) => setMobileNumber(e.target.value)}
                       required
-                      disabled={step > 2}
+                      disabled={step > 2 || loading}
                     />
                     {step === 2 && (
-                      <button type="button" className="continue-button" onClick={handleContinue}>
+                      <button type="button" className="continue-button" onClick={handleContinue} disabled={loading}>
                         Continue
                       </button>
                     )}
@@ -146,14 +122,14 @@ function SignUp() {
                   <label>Choose a username*</label>
                   <div className="input-group">
                     <input
-                      type="username"
+                      type="text"
                       value={username}
                       onChange={(e) => setUsername(e.target.value)}
                       required
-                      disabled={step > 3}
+                      disabled={step > 3 || loading}
                     />
                     {step === 3 && (
-                      <button type="button" className="continue-button" onClick={handleContinue}>
+                      <button type="button" className="continue-button" onClick={handleContinue} disabled={loading}>
                         Continue
                       </button>
                     )}
@@ -171,9 +147,10 @@ function SignUp() {
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       required
+                      disabled={loading}
                     />
                     {step === 4 && (
-                      <button type="button" className="continue-button" onClick={handleContinue}>
+                      <button type="button" className="continue-button" onClick={handleContinue} disabled={loading}>
                         Continue
                       </button>
                     )}
@@ -187,12 +164,13 @@ function SignUp() {
                   <label>Confirm Password*</label>
                   <div className="input-group">
                     <input
-                      type="confirmPassword"
+                      type="password"
                       value={confirmPassword}
                       onChange={(e) => setConfirmPassword(e.target.value)}
                       required
+                      disabled={loading}
                     />
-                    <button type="submit" className="continue-button">
+                    <button type="submit" className="continue-button" disabled={loading}>
                       Submit
                     </button>
                   </div>
@@ -207,7 +185,6 @@ function SignUp() {
         </div>
       )}
 
-      {/* Password Strength Bar should appear below the form */}
       {step >= 4 && (
         <div className="password-strength-container">
           <PasswordStrengthBar password={password} />
