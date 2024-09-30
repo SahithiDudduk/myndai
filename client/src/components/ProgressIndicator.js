@@ -2,7 +2,7 @@ import React from 'react';
 import './ProgressIndicator.css';
 
 const ProgressIndicator = ({ completedSteps }) => {
-  const totalSteps = 4; // Adjust this if you have more steps
+  const totalSteps = 4; // Total steps including all stages
 
   return (
     <div className="progress-indicator">

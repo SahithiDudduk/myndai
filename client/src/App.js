@@ -9,16 +9,19 @@ import SignUp from './pages/SignUp';
 import Login from './pages/Login';
 import PersonalizeExperience from './pages/PersonalizeExperience';
 import GenderSelection from './pages/GenderSelection';
-import DietarySelection from './pages/DietarySelection';
+import DietaryPreferences from './pages/DietaryPreferences';
 import MedicalCondition from './pages/MedicalCondition';
 import GoalSetting from './pages/GoalSetting';
 import AgeSelection from './pages/AgeSelection';
 import WeightSelection from './pages/WeightSelection';
 import HeightSelection from './pages/HeightSelection';
+import FoodChoices from './pages/FoodChoices';
+import mealFrequency from './pages/MealFrequency'
 import Bmi from './pages/Bmi';
 import ProgressIndicator from './components/ProgressIndicator';
 
 import './App.css';
+import MealFrequency from './pages/MealFrequency';
 
 function App() {
   const [completedSteps, setCompletedSteps] = useState([false, false, false, false]);
@@ -54,15 +57,32 @@ function App() {
           path="/weight" 
           element={<WeightSelection completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
         />
-                <Route 
+        <Route 
           path="/height" 
           element={<HeightSelection completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
         />
 
           <Route path="/bmi" element={<Bmi />} />
-          <Route path="/dietary" element={<DietarySelection setUserData={setUserData} />} />
-          <Route path="/medical" element={<MedicalCondition setUserData={setUserData} />} />
-          <Route path="/goals" element={<GoalSetting setUserData={setUserData} />} />
+        <Route 
+          path="/dietary" 
+          element={<DietaryPreferences completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
+        />
+        <Route 
+          path="/foodChoices" 
+          element={<FoodChoices completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
+        />
+        <Route 
+          path="/mealFrequency" 
+          element={<MealFrequency completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
+        />
+        <Route 
+          path="/medical" 
+          element={<MedicalCondition completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
+        />
+        <Route 
+          path="/goals" 
+          element={<GoalSetting completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
+        />
         </Routes>
       </main>
       <Footer />
