@@ -35,9 +35,9 @@ function SignUp() {
   
     try {
       const userData = { mobileNumber, email, username, password };
-      const API_URL = 'http://myndai-g33ynvfrb-sahithis-projects-cca48538.vercel.app/signup';
+      const API_URL = 'https://myndai-g33ynvfrb-sahithis-projects-cca48538.vercel.app/signup'; // Change to HTTPS
   
-      const response = await fetch(`${API_URL}`, {
+      const response = await fetch(API_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(userData),
@@ -60,6 +60,7 @@ function SignUp() {
       setError('An error occurred during registration.');
     }
   };
+  
   
 
   return (

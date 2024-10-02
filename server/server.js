@@ -14,7 +14,9 @@ const port = process.env.PORT || 5000;
 // CORS Options
 const corsOptions = {
   origin: ['https://myndai-g33ynvfrb-sahithis-projects-cca48538.vercel.app'], // Your Vercel URL
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Allow credentials
+  
 };
 
 
