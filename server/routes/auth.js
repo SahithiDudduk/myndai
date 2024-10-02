@@ -3,7 +3,7 @@ const router = express.Router();
 const User = require('../models/User'); // Ensure this path is correct
 const bcrypt = require('bcrypt');
 
-router.post('/register', async (req, res) => {
+router.post('/signup', async (req, res) => {
   try {
     console.log('Request body:', req.body); // Log the request body
 

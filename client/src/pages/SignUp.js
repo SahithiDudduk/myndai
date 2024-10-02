@@ -31,16 +31,19 @@ function SignUp() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true); // Start loading
   
     try {
       const userData = { mobileNumber, email, username, password };
-      const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+      const API_URL = 'http://myndai-g33ynvfrb-sahithis-projects-cca48538.vercel.app/signup';
   
-      const response = await fetch(`${API_URL}/register`, {
+      const response = await fetch(`${API_URL}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(userData),
       });
+  
+      setLoading(false); // End loading
   
       if (!response.ok) {
         const errorData = await response.json();
@@ -53,6 +56,7 @@ function SignUp() {
       setIsRegistered(true);
       navigate('/personalize');
     } catch (error) {
+      setLoading(false); // End loading in case of error
       setError('An error occurred during registration.');
     }
   };

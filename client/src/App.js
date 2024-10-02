@@ -16,7 +16,6 @@ import AgeSelection from './pages/AgeSelection';
 import WeightSelection from './pages/WeightSelection';
 import HeightSelection from './pages/HeightSelection';
 import FoodChoices from './pages/FoodChoices';
-import mealFrequency from './pages/MealFrequency'
 import Bmi from './pages/Bmi';
 import ProgressIndicator from './components/ProgressIndicator';
 
