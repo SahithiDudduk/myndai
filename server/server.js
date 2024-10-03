@@ -2,42 +2,39 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const userRoutes = require('./routes/userRoutes');
-const helmet = require('helmet');
-const morgan = require('morgan');
-require('dotenv').config();
+const userRoutes = require('./routes/userRoutes'); // Ensure this path is correct
+const helmet = require('helmet'); // For security
+const morgan = require('morgan'); // For logging
+require('dotenv').config(); // To load environment variables
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000; // Use PORT from environment or default to 5000
 
-// CORS Options
-// CORS Options
-const corsOptions = {
-  origin: ['https://myndai-g33ynvfrb-sahithis-projects-cca48538.vercel.app'], // Your Vercel URL
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true, // Allow credentials
-  
-};
+// Middleware
+// app.use(cors({
+//   origin: ['http://localhost:3000', 'https://82af-2401-4900-1f29-7355-8ed0-64de-a3df-647b.ngrok-free.app/'], // Update with your client origins
+//   methods: ['GET', 'POST'],
+//   credentials: true
+// }));
 
-
-app.use(cors(corsOptions)); // Enable CORS
-app.use(helmet()); // Security headers
-app.use(morgan('combined')); // Logging
+app.use((req, res, next) => {
+  res.setHeader(
+    "Content-Security-Policy",
+    "default-src 'self'; img-src 'self' https://82af-2401-4900-1f29-7355-8ed0-64de-a3df-647b.ngrok-free.app/; script-src 'self'; style-src 'self';"
+  );
+  next();
+});
+app.use(helmet()); // Adds various security headers
+app.use(morgan('combined')); // Logs requests to the console
 app.use(bodyParser.json()); // Parse JSON bodies
 
 // Use routes
-app.use('/api', userRoutes);
+app.use('/api', userRoutes); // Ensure this path is correct
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log('MongoDB connection error:', err));
-
-// Error handling middleware
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).send({ message: 'Something broke!' });
-});
 
 // Start server
 app.listen(port, () => {

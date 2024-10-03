@@ -31,19 +31,16 @@ function SignUp() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true); // Start loading
   
     try {
       const userData = { mobileNumber, email, username, password };
-      const API_URL = 'https://myndai-g33ynvfrb-sahithis-projects-cca48538.vercel.app/signup'; // Change to HTTPS
+      const API_URL = 'https://82af-2401-4900-1f29-7355-8ed0-64de-a3df-647b.ngrok-free.app/api';
   
-      const response = await fetch(API_URL, {
+      const response = await fetch(`${API_URL}/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(userData),
       });
-  
-      setLoading(false); // End loading
   
       if (!response.ok) {
         const errorData = await response.json();
@@ -56,11 +53,9 @@ function SignUp() {
       setIsRegistered(true);
       navigate('/personalize');
     } catch (error) {
-      setLoading(false); // End loading in case of error
       setError('An error occurred during registration.');
     }
   };
-  
   
 
   return (

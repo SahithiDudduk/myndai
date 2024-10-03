@@ -1,10 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/User'); // Make sure the path to your model is correct
+const User = require('../models/User'); // Ensure this path is correct
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
-// Registration Route
 router.post('/register', async (req, res) => {
   try {
     const { mobileNumber, email, username, password } = req.body;
@@ -14,7 +13,7 @@ router.post('/register', async (req, res) => {
       return res.status(400).json({ message: 'All fields are required' });
     }
 
-    // Check if user already exists
+    // Check if the user already exists
     const existingUser = await User.findOne({ email });
     if (existingUser) {
       return res.status(400).json({ message: 'User already exists' });
@@ -23,7 +22,7 @@ router.post('/register', async (req, res) => {
     // Hash the password
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    // Create new user
+    // Create a new user
     const newUser = new User({
       mobileNumber,
       email,
@@ -32,11 +31,10 @@ router.post('/register', async (req, res) => {
     });
 
     await newUser.save();
-
-    // Create JWT token
     const token = jwt.sign({ id: newUser._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
     return res.status(201).json({ message: 'User registered successfully', token });
 
+    // return res.status(201).json({ message: 'User registered successfully' });
   } catch (error) {
     console.error('Error registering user:', error);
     return res.status(500).json({ message: 'Error registering user', error: error.message });
