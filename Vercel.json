@@ -1,0 +1,14 @@
+{
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "Content-Security-Policy",
+            "value": "default-src 'self'; img-src 'self' https://82af-2401-4900-1f29-7355-8ed0-64de-a3df-647b.ngrok-free.app; script-src 'self'; style-src 'self';"
+          }
+        ]
+      }
+    ]
+  }
+  

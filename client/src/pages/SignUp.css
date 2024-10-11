@@ -29,7 +29,7 @@
   align-items: center; /* Aligns input and button in the same row */
 }
 
-input[type="email"], input[type="password"], input[type='mobileNumber'],input[type='username'],input[type='confirmPassword'] {
+input[type="email"], input[type="password"], input[type="mobileNumber"],input[type='username'],input[type='confirmPassword'] {
   width: 70%; /* Adjust the width to fit input and button */
   padding: 10px;
   margin-right: 10px; /* Space between input and button */

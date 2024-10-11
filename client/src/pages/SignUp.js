@@ -31,31 +31,35 @@ function SignUp() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     try {
-      const userData = { mobileNumber, email, username, password };
-      const API_URL = 'https://82af-2401-4900-1f29-7355-8ed0-64de-a3df-647b.ngrok-free.app/api';
-  
-      const response = await fetch(`${API_URL}/register`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(userData),
-      });
-  
-      if (!response.ok) {
-        const errorData = await response.json();
-        setError(errorData.message || 'Registration failed.');
-        return;
-      }
-  
-      const data = await response.json();
-      setSuccess(data.message);
-      setIsRegistered(true);
-      navigate('/personalize');
+        const userData = { mobileNumber, email, username, password };
+        const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+
+        const response = await fetch(`${API_URL}/register`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'ngrok-skip-browser-warning': 'true', // Add this line to skip the warning
+            },
+            body: JSON.stringify(userData),
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json();
+            setError(errorData.message || 'Registration failed.');
+            return;
+        }
+
+        const data = await response.json();
+        setSuccess(data.message);
+        setIsRegistered(true);
+        navigate('/personalize');
     } catch (error) {
-      setError('An error occurred during registration.');
+        setError('An error occurred during registration.');
     }
-  };
+};
+
   
 
   return (
@@ -101,7 +105,7 @@ function SignUp() {
                   <label>Enter your mobile number*</label>
                   <div className="input-group">
                     <input
-                      type="text"
+                      type="mobileNumber"
                       value={mobileNumber}
                       onChange={(e) => setMobileNumber(e.target.value)}
                       required
@@ -122,7 +126,7 @@ function SignUp() {
                   <label>Choose a username*</label>
                   <div className="input-group">
                     <input
-                      type="text"
+                      type="username"
                       value={username}
                       onChange={(e) => setUsername(e.target.value)}
                       required
@@ -164,7 +168,7 @@ function SignUp() {
                   <label>Confirm Password*</label>
                   <div className="input-group">
                     <input
-                      type="password"
+                      type="confirmPassword"
                       value={confirmPassword}
                       onChange={(e) => setConfirmPassword(e.target.value)}
                       required

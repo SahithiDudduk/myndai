@@ -10,7 +10,7 @@ import Login from './pages/Login';
 import PersonalizeExperience from './pages/PersonalizeExperience';
 import GenderSelection from './pages/GenderSelection';
 import DietaryPreferences from './pages/DietaryPreferences';
-import MedicalCondition from './pages/MedicalCondition';
+import MedicalConditions from './pages/MedicalConditions';
 import GoalSetting from './pages/GoalSetting';
 import AgeSelection from './pages/AgeSelection';
 import WeightSelection from './pages/WeightSelection';
@@ -22,6 +22,7 @@ import ProgressIndicator from './components/ProgressIndicator';
 
 import './App.css';
 import MealFrequency from './pages/MealFrequency';
+import PhysicalActivitySelection from './pages/PhysicalActivitySelection';
 
 function App() {
   const [completedSteps, setCompletedSteps] = useState([false, false, false, false]);
@@ -76,8 +77,12 @@ function App() {
           element={<MealFrequency completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
         />
         <Route 
+          path="/PhysicalActivitySelection" 
+          element={<PhysicalActivitySelection completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
+        />
+        <Route 
           path="/medical" 
-          element={<MedicalCondition completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
+          element={<MedicalConditions completedSteps={completedSteps} setCompletedSteps={setCompletedSteps} />} 
         />
         <Route 
           path="/goals" 

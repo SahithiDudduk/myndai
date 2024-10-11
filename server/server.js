@@ -9,32 +9,32 @@ require('dotenv').config(); // To load environment variables
 
 const app = express();
 const port = process.env.PORT || 5000; // Use PORT from environment or default to 5000
+const corsOptions = {
+  origin: '*', // Replace with your client URL
+  optionsSuccessStatus: 200, // Some legacy browsers choke on 204
+};
 
+// Use CORS middleware with your options
+app.use(cors(corsOptions));
 // Middleware
-// app.use(cors({
-//   origin: ['http://localhost:3000', 'https://82af-2401-4900-1f29-7355-8ed0-64de-a3df-647b.ngrok-free.app/'], // Update with your client origins
-//   methods: ['GET', 'POST'],
-//   credentials: true
-// }));
-
-app.use((req, res, next) => {
-  res.setHeader(
-    "Content-Security-Policy",
-    "default-src 'self'; img-src 'self' https://82af-2401-4900-1f29-7355-8ed0-64de-a3df-647b.ngrok-free.app/; script-src 'self'; style-src 'self';"
-  );
-  next();
-});
 app.use(helmet()); // Adds various security headers
 app.use(morgan('combined')); // Logs requests to the console
 app.use(bodyParser.json()); // Parse JSON bodies
+
+
 
 // Use routes
 app.use('/api', userRoutes); // Ensure this path is correct
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log('MongoDB connected'))
-  .catch(err => console.log('MongoDB connection error:', err));
+mongoose.connect(process.env.MONGODB_URI)
+  .then(() => {
+    console.log('MongoDB connected successfully');
+  })
+  .catch(err => {
+    console.error('MongoDB connection error:', err.message);
+  });
+
 
 // Start server
 app.listen(port, () => {
