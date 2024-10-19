@@ -1,40 +1,56 @@
+// server.js
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const userRoutes = require('./routes/userRoutes'); // Ensure this path is correct
-const helmet = require('helmet'); // For security
-const morgan = require('morgan'); // For logging
-require('dotenv').config(); // To load environment variables
+const userRoutes = require('./routes/userRoutes');
+const helmet = require('helmet');
+const morgan = require('morgan');
+require('dotenv').config();
+const { Sequelize } = require('sequelize');
 
 const app = express();
-const port = process.env.PORT || 5000; // Use PORT from environment or default to 5000
+const port = process.env.PORT || 5000;
+
 const corsOptions = {
-  origin: '*', // Replace with your client URL
-  optionsSuccessStatus: 200, // Some legacy browsers choke on 204
+  origin: 'https://myndai.vercel.app', // Allow the Vercel app to access this resource
+  optionsSuccessStatus: 200,
 };
 
-// Use CORS middleware with your options
-app.use(cors(corsOptions));
+// Initialize Sequelize for MySQL
+const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
+  host: process.env.DB_HOST,
+  dialect: 'mysql',
+});
+
 // Middleware
-app.use(helmet()); // Adds various security headers
-app.use(morgan('combined')); // Logs requests to the console
-app.use(bodyParser.json()); // Parse JSON bodies
+app.use('*',cors(corsOptions));
+app.use(helmet());
+app.use(morgan('combined'));
+app.use(bodyParser.json());
 
+// Routes
+app.use('/api', userRoutes);
 
+// Sync database and check connection
+const syncDatabase = async () => {
+  try {
+    await sequelize.authenticate(); // Ensures connection works
+    console.log('MySQL connection established');
+    await sequelize.sync({ force: false }); // Sync models
+    console.log('Database synced successfully');
+  } catch (error) {
+    console.error('Error connecting or syncing with MySQL:', error);
+  }
+};
 
-// Use routes
-app.use('/api', userRoutes); // Ensure this path is correct
+// Connect to MongoDB if still needed
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log('MongoDB connected successfully'))
+  .catch(err => console.error('MongoDB connection error:', err));
 
-// Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI)
-  .then(() => {
-    console.log('MongoDB connected successfully');
-  })
-  .catch(err => {
-    console.error('MongoDB connection error:', err.message);
-  });
-
+// Start syncing MySQL database
+syncDatabase();
 
 // Start server
 app.listen(port, () => {

@@ -1,42 +1,48 @@
 const express = require('express');
-const router = express.Router();
-const User = require('../models/User'); // Ensure this path is correct
 const bcrypt = require('bcrypt');
+const router = express.Router();
+const Sequelize = require('sequelize');
 
-router.post('/register', async (req, res) => {
-  try {
-    console.log('Request body:', req.body); // Log the request body
+module.exports = (sequelize) => {
+  const User = sequelize.define('User', {
+    email: {
+      type: Sequelize.STRING,
+      allowNull: false,
+      unique: true,
+    },
+    mobileNumber: {
+      type: Sequelize.STRING,
+      allowNull: false,
+    },
+    username: {
+      type: Sequelize.STRING,
+      allowNull: false,
+    },
+    password: {
+      type: Sequelize.STRING,
+      allowNull: false,
+    },
+  });
 
-    const { mobileNumber, email, username, password } = req.body;
+  router.post('/register', async (req, res) => {
+    const { email, mobileNumber, username, password } = req.body;
 
-    // Validate input
-    if (!mobileNumber || !email || !username || !password) {
-      return res.status(400).json({ message: 'All fields are required' });
+    try {
+      // Check if user already exists
+      const existingUser = await User.findOne({ where: { email } });
+      if (existingUser) {
+        return res.status(400).json({ message: 'User already exists' });
+      }
+
+      // Hash the password
+      const hashedPassword = await bcrypt.hash(password, 10);
+      const newUser = await User.create({ email, mobileNumber, username, password: hashedPassword });
+      
+      res.status(201).json({ message: 'User registered successfully', userId: newUser.id });
+    } catch (error) {
+      res.status(500).json({ message: 'Error registering user', error: error.message });
     }
+  });
 
-    // Check if the user already exists
-    const existingUser = await User.findOne({ email });
-    if (existingUser) {
-      return res.status(400).json({ message: 'User already exists' });
-    }
-
-    // Hash the password
-    const hashedPassword = await bcrypt.hash(password, 10);
-
-    // Create a new user
-    const newUser = new User({
-      mobileNumber,
-      email,
-      username,
-      password: hashedPassword,
-    });
-
-    await newUser.save();
-    return res.status(201).json({ message: 'User registered successfully' });
-  } catch (error) {
-    console.error('Error registering user:', error);
-    return res.status(500).json({ message: 'Error registering user', error: error.message });
-  }
-});
-
-module.exports = router;
+  return router;
+};
