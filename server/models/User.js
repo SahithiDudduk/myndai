@@ -1,8 +1,7 @@
-// models/User.js
+//server/models.User.js
 const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = require('../config/database'); // Make sure this path is correct
+const sequelize = require('../config/database'); // Ensure this path is correct
 
-// Define User model
 const User = sequelize.define('User', {
   id: {
     type: DataTypes.INTEGER,
@@ -12,7 +11,7 @@ const User = sequelize.define('User', {
   email: {
     type: DataTypes.STRING,
     allowNull: false,
-    unique: true, // Ensure unique emails
+    unique: true,
   },
   mobileNumber: {
     type: DataTypes.STRING,
@@ -27,8 +26,8 @@ const User = sequelize.define('User', {
     allowNull: false,
   },
 }, {
-  tableName: 'users', // Table name in the DB
-  timestamps: true,   // Automatically manage createdAt and updatedAt fields
+  tableName: 'users', // Name of the table in your database
+  timestamps: false, // Disable the automatic addition of createdAt and updatedAt fields
 });
 
 module.exports = User;

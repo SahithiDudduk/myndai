@@ -1,6 +1,7 @@
+//client/SignUp.js
 import React, { useState } from 'react';
 import PasswordStrengthBar from 'react-password-strength-bar';
-import { ReactTyped } from 'react-typed';
+import { ReactTyped as Typed } from 'react-typed';
 import './SignUp.css';
 import { useNavigate } from 'react-router-dom'; 
 import PersonalizeExperience from './PersonalizeExperience';
@@ -17,7 +18,7 @@ function SignUp() {
   const [success, setSuccess] = useState('');
   const [showInput, setShowInput] = useState(false);
   const [isRegistered, setIsRegistered] = useState(false);
-  const [loading, setLoading] = useState(false); // Loading state
+  const [loading, setLoading] = useState(false);
 
   const handleContinue = () => {
     setError('');
@@ -31,42 +32,39 @@ function SignUp() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setLoading(true);
     try {
-        const userData = { mobileNumber, email, username, password };
-        const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+      const userData = { mobileNumber, email, username, password };
+      const API_URL = 'http://localhost:5000/api';
 
-        const response = await fetch(`${API_URL}/register`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'ngrok-skip-browser-warning': 'true', // Add this line to skip the warning
-            },
-            body: JSON.stringify(userData),
-        });
+      const response = await fetch(`${API_URL}/register`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(userData),
+      });
 
-        if (!response.ok) {
-            const errorData = await response.json();
-            setError(errorData.message || 'Registration failed.');
-            return;
-        }
+      setLoading(false);
 
-        const data = await response.json();
-        setSuccess(data.message);
-        setIsRegistered(true);
-        navigate('/personalize');
+      if (!response.ok) {
+        const errorData = await response.json();
+        setError(errorData.message || 'Registration failed.');
+        return;
+      }
+
+      const data = await response.json();
+      setSuccess(data.message);
+      setIsRegistered(true);
+      navigate('/personalize');
     } catch (error) {
-        setError('An error occurred during registration.');
+      setError('An error occurred during registration.');
     }
-};
-
-  
+  };
 
   return (
     <div className="signup-container">
       {!showInput ? (
         <h1>
-          <ReactTyped
+          <Typed
             strings={["Welcome to MyndAI!", "Let’s begin the adventure"]}
             typeSpeed={50}
             backSpeed={30}
@@ -82,9 +80,10 @@ function SignUp() {
             <form className="signup-form" onSubmit={handleSubmit}>
               {/* Step 1: Enter Email */}
               <div className="form-group">
-                <label>Enter your email*</label>
+                <label htmlFor="email">Enter your email*</label>
                 <div className="input-group">
                   <input
+                    id="email"
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -102,10 +101,11 @@ function SignUp() {
               {/* Step 2: Enter Mobile Number */}
               {step >= 2 && (
                 <div className="form-group">
-                  <label>Enter your mobile number*</label>
+                  <label htmlFor="mobileNumber">Enter your mobile number*</label>
                   <div className="input-group">
                     <input
-                      type="mobileNumber"
+                      id="mobileNumber"
+                      type="tel"
                       value={mobileNumber}
                       onChange={(e) => setMobileNumber(e.target.value)}
                       required
@@ -123,10 +123,11 @@ function SignUp() {
               {/* Step 3: Enter Username */}
               {step >= 3 && (
                 <div className="form-group">
-                  <label>Choose a username*</label>
+                  <label htmlFor="username">Choose a username*</label>
                   <div className="input-group">
                     <input
-                      type="username"
+                      id="username"
+                      type="text"
                       value={username}
                       onChange={(e) => setUsername(e.target.value)}
                       required
@@ -144,9 +145,10 @@ function SignUp() {
               {/* Step 4: Create Password */}
               {step >= 4 && (
                 <div className="form-group">
-                  <label>Create a password*</label>
+                  <label htmlFor="password">Create a password*</label>
                   <div className="input-group">
                     <input
+                      id="password"
                       type="password"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
@@ -165,10 +167,11 @@ function SignUp() {
               {/* Step 5: Confirm Password */}
               {step >= 5 && (
                 <div className="form-group">
-                  <label>Confirm Password*</label>
+                  <label htmlFor="confirmPassword">Confirm Password*</label>
                   <div className="input-group">
                     <input
-                      type="confirmPassword"
+                      id="confirmPassword"
+                      type="password"
                       value={confirmPassword}
                       onChange={(e) => setConfirmPassword(e.target.value)}
                       required
