@@ -87,37 +87,83 @@
 //     console.log(`Server is running on http://localhost:${PORT}`);
 // });
 
+// const express = require('express');
+// const app = express();
+// const PORT = process.env.PORT || 5000;
+
+// // Configure CORS
+// const cors = require('cors');
+// // app.use(cors({
+// //   origin: 'http://localhost:3000', // Adjust to your frontend URL
+// //   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+// //   credentials: true,
+// // }));
+
+// // Update your allowed origins list
+// const allowedOrigins = [
+//   'http://localhost:3000', // local frontend
+//   'https://myndai-git-main-sahithis-projects-cca48538.vercel.app', // vercel frontend
+// ];
+
+// // Set up CORS options
+// const corsOptions = {
+//   origin: (origin, callback) => {
+//     if (allowedOrigins.includes(origin) || !origin) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error('Not allowed by CORS'));
+//     }
+//   },
+//   credentials: true,
+// };
+
+// app.use(cors(corsOptions));
+
+// const { Sequelize } = require('sequelize');
+
+// const sequelize = new Sequelize('userDetails', 'admin', 'Password-2024', {
+//   host: 'userdetails.czmo6we2e6t6.ap-south-1.rds.amazonaws.com',
+//   dialect: 'mysql' // or 'postgres'
+// });
+
+// sequelize.authenticate()
+//   .then(() => {
+//     console.log('Connection to the AWS RDS database has been established successfully.');
+//   })
+//   .catch(err => {
+//     console.error('Unable to connect to the database:', err);
+//   });
+// app.post('/api/register', (req, res) => {
+//     res.send('User registered successfully');
+// });
+
+// // Start the server
+// app.listen(PORT, () => {
+//     console.log(`Server is running on http://localhost:${PORT}`);
+// });
+
+// server.js
 const express = require('express');
+const sequelize = require('./config/database'); // Import the Sequelize instance
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Configure CORS
-const cors = require('cors');
-app.use(cors({
-  origin: 'http://localhost:3000', // Adjust to your frontend URL
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true,
-}));
+// Middleware (if any)
 
-const { Sequelize } = require('sequelize');
-
-const sequelize = new Sequelize('userDetails', 'admin', 'Password-2024', {
-  host: 'userdetails.czmo6we2e6t6.ap-south-1.rds.amazonaws.com',
-  dialect: 'mysql' // or 'postgres'
-});
-
-sequelize.authenticate()
-  .then(() => {
-    console.log('Connection to the AWS RDS database has been established successfully.');
-  })
-  .catch(err => {
-    console.error('Unable to connect to the database:', err);
-  });
-app.post('/api/register', (req, res) => {
-    res.send('User registered successfully');
-});
+// Routes (Define your routes here)
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server is running on port ${PORT}`);
 });
+
+// Sync the database (optional, if you want Sequelize to handle table creation)
+// This can be dangerous in production as it may alter the tables. Use it carefully.
+sequelize.sync()
+    .then(() => {
+        console.log('Database synchronized successfully.');
+    })
+    .catch((error) => {
+        console.error('Error syncing database:', error);
+    });

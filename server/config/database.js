@@ -22,6 +22,7 @@
   // });
 
   // config/database.js
+// config/database.js
 const { Sequelize } = require('sequelize');
 require('dotenv').config();
 
@@ -31,9 +32,19 @@ const sequelize = new Sequelize(
     process.env.DB_PASSWORD, // Password
     {
         host: process.env.DB_HOST, // RDS Endpoint
-        dialect: 'mysql',
-        logging: console.log, // Enables logging
+        dialect: 'mysql',          // Database dialect
+        port: process.env.DB_PORT || 3306, // Default MySQL port or from env variable
+        logging: console.log,      // Enables logging; set to `false` to disable
     }
 );
+
+// Test the connection
+sequelize.authenticate()
+    .then(() => {
+        console.log('Connection to the database has been established successfully.');
+    })
+    .catch((error) => {
+        console.error('Unable to connect to the database:', error);
+    });
 
 module.exports = sequelize;
