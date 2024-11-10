@@ -143,27 +143,100 @@
 // });
 
 // server.js
+// server.js
+// 
+// server.js (Node.js with Express and MySQL)
+
+// const express = require('express');
+// const mysql = require('mysql2');
+// const bodyParser = require('body-parser');
+
+// const cors = require('cors');
+// const app = express();
+// app.use(bodyParser.json());
+
+// // app.use(cors({
+// //     origin: 'http://localhost:3000' // or any specific domain
+// // }));
+// // Allow requests from all origins (you can specify a particular origin if needed)
+// app.use(cors()); // This will allow all origins
+// const db = mysql.createConnection({
+//   host: '3.111.58.101',  // EC2 private IP if accessing locally or public IP if external
+//   user: 'root',
+//   password: 'Password@123',
+//   database: 'userDetails',
+// });
+
+// db.connect((err) => {
+//   if (err) throw err;
+//   console.log('Connected to MySQL');
+// });
+
+// // API route for registering a user
+// app.post('/api/register', (req, res) => {
+//   const { username, email } = req.body;
+
+//   const query = 'INSERT INTO users (username, email) VALUES (?, ?)';
+//   db.query(query, [username, email], (err, result) => {
+//     if (err) {
+//       console.error('Error inserting data', err);
+//       res.status(500).json({ message: 'Database error' });
+//     } else {
+//       res.status(200).json({ message: 'User registered successfully', userId: result.insertId });
+//     }
+//   });
+// });
+
+// const port = 5000;
+// app.listen(port, () => {
+//   console.log(`Server running at http://localhost:${port}`);
+// });
+
 const express = require('express');
-const sequelize = require('./config/database'); // Import the Sequelize instance
-
+const mysql = require('mysql2');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 const app = express();
-const PORT = process.env.PORT || 5000;
 
-// Middleware (if any)
+app.use(bodyParser.json());
+app.use(cors()); // This will allow all origins
 
-// Routes (Define your routes here)
-
-// Start the server
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+const db = mysql.createConnection({
+  host: '3.111.58.101',  // Replace with your server IP
+  user: 'root',
+  password: 'Password@123',
+  database: 'userDetails',
 });
 
-// Sync the database (optional, if you want Sequelize to handle table creation)
-// This can be dangerous in production as it may alter the tables. Use it carefully.
-sequelize.sync()
-    .then(() => {
-        console.log('Database synchronized successfully.');
-    })
-    .catch((error) => {
-        console.error('Error syncing database:', error);
-    });
+db.connect((err) => {
+  if (err) {
+    console.error('Error connecting to the database: ', err);
+    return;
+  }
+  console.log('Connected to the database');
+});
+
+// Define a route to check the connection and get columns
+app.get('/api/checkConnection', (req, res) => {
+  const query = 'SELECT * FROM users LIMIT 1';  // Get the first row to check if table exists
+
+  db.query(query, (err, results) => {
+    if (err) {
+      console.error('Error fetching users:', err);
+      return res.status(500).json({ message: 'Error fetching users' });
+    }
+
+    // If query is successful, log the columns from the first row
+    if (results.length > 0) {
+      console.log('Columns:', Object.keys(results[0])); // This will log the column names
+      res.status(200).json({ message: 'Connection successful', columns: Object.keys(results[0]) });
+    } else {
+      res.status(404).json({ message: 'No data found in users table' });
+    }
+  });
+});
+
+const port = 5000;
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server is running on port ${port}`);
+});

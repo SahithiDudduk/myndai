@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -19,6 +19,7 @@ import FoodChoices from './pages/FoodChoices';
 import mealFrequency from './pages/MealFrequency'
 import Bmi from './pages/Bmi';
 import ProgressIndicator from './components/ProgressIndicator';
+import { checkDatabaseConnection } from './pages/checkConnection';
 
 import './App.css';
 import MealFrequency from './pages/MealFrequency';
@@ -33,6 +34,10 @@ function App() {
     gender: '',
     // Add more fields as needed
   });
+  useEffect(() => {
+    checkDatabaseConnection();  // Call to check DB connection
+  }, []);  // Empty dependency array means this runs once when the component mounts
+
   const location = useLocation();
 
   const showProgressIndicator = ['/gender', '/weight', '/height', '/age'].includes(location.pathname);
