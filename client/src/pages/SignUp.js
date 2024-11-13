@@ -35,7 +35,7 @@ function SignUp() {
     setLoading(true);
     try {
       const userData = { mobileNumber, email, username, password };
-      const API_URL = 'http://localhost:5000/api';
+      const API_URL = 'http://3.111.58.101:5000/api';
 
       const response = await fetch(`${API_URL}/register`, {
         method: 'POST',

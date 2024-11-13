@@ -215,7 +215,24 @@ db.connect((err) => {
   }
   console.log('Connected to the database');
 });
-
+app.post('/api/register', (req, res) => {
+    const { email, mobileNumber, username, password } = req.body;
+  
+    if (!email || !mobileNumber || !username || !password) {
+      return res.status(400).json({ message: 'All fields are required' });
+    }
+  
+    const query = 'INSERT INTO users (email, mobileNumber, username, password) VALUES (?, ?, ?, ?)';
+    
+    db.query(query, [email, mobileNumber, username, password], (err, result) => {
+      if (err) {
+        console.error('Error inserting user:', err);
+        return res.status(500).json({ message: 'Registration failed' });
+      }
+  
+      res.status(201).json({ message: 'Registration successful' });
+    });
+  });
 // Define a route to check the connection and get columns
 app.get('/api/checkConnection', (req, res) => {
   const query = 'SELECT * FROM users LIMIT 1';  // Get the first row to check if table exists
@@ -233,6 +250,17 @@ app.get('/api/checkConnection', (req, res) => {
     } else {
       res.status(404).json({ message: 'No data found in users table' });
     }
+  });
+});
+app.get('/api/getUsers', (req, res) => {
+  const query = 'SELECT * FROM users';  // Fetch all users from the table
+
+  db.query(query, (err, results) => {
+    if (err) {
+      console.error('Error fetching users:', err);
+      return res.status(500).json({ message: 'Error fetching users' });
+    }
+    res.status(200).json({ users: results });  // Return the user data
   });
 });
 
