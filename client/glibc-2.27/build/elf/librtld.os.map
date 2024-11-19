@@ -1,0 +1,1352 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__libc_check_standard_fds)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (rtld_errno)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__closedir)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__readdir)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__rewinddir)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os) (__getdents)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__fdopendir)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (_dl_addr_inside_object)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__profil)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__profile_frequency)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__GI___xstat64)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__GI___fxstat64)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__GI___lxstat64)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__open)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__openat64_nocancel)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__libc_read)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__libc_write)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__lseek)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__access)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os) (__libc_fcntl)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__close)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__mmap)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__munmap)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__mprotect)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__uname)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__GI__exit)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__getpid)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__environ)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__sigsetjmp)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__longjmp)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os) (__sigaction)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__strdup)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (strcmp)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (memchr)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (rawmemchr)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (memcmp)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (strchr)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (strlen)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (strnlen)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__stpcpy)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (strcspn)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (__mempcpy)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os (memset)
+/home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+                              /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os) (__setitimer)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+LOAD /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a
+LOAD /usr/lib/gcc/x86_64-redhat-linux/7/libgcc.a
+END GROUP
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+ *(.iplt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x1ae20
+ *(.text .stub)
+ .text          0x0000000000000000    0x17b21 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+                0x0000000000000000                _start
+                0x0000000000000008                _dl_start_user
+                0x0000000000001170                handle_ld_preload
+                0x0000000000006540                _dl_dst_count
+                0x00000000000065f0                _dl_dst_substitute
+                0x0000000000006d20                _dl_init_paths
+                0x0000000000007000                _dl_map_object
+                0x0000000000007a20                _dl_rtld_di_serinfo
+                0x00000000000088a0                _dl_lookup_symbol_x
+                0x0000000000009780                _dl_setup_hash
+                0x0000000000009830                _dl_add_to_namespace_list
+                0x00000000000098c0                _dl_new_object
+                0x0000000000009c10                _dl_try_allocate_static_tls
+                0x0000000000009ce0                _dl_allocate_static_tls
+                0x0000000000009d10                _dl_nothread_init_static_tls
+                0x0000000000009d50                _dl_protect_relro
+                0x0000000000009db0                _dl_reloc_bad_type
+                0x0000000000009e80                _dl_relocate_object
+                0x000000000000b690                _dl_map_object_deps
+                0x000000000000c6a0                _dl_important_hwcaps
+                0x000000000000ce00                _dl_fixup
+                0x000000000000cf90                _dl_profile_fixup
+                0x000000000000d4f0                _dl_call_pltexit
+                0x000000000000d6f0                _dl_init
+                0x000000000000d820                _dl_fini
+                0x000000000000dbd0                _dl_debug_state
+                0x000000000000dbd0                __GI__dl_debug_state
+                0x000000000000dbe0                _dl_debug_initialize
+                0x000000000000e230                _dl_sysdep_read_whole_file
+                0x000000000000e2c0                _dl_debug_printf
+                0x000000000000e370                _dl_debug_printf_c
+                0x000000000000e420                _dl_dprintf
+                0x000000000000e4c0                _dl_name_match_p
+                0x000000000000e520                _dl_higher_prime_number
+                0x000000000000e590                _dl_strtoul
+                0x000000000000e6c0                _dl_check_map_versions
+                0x000000000000edd0                _dl_check_all_versions
+                0x000000000000ee40                _dl_start_profile
+                0x000000000000f580                __GI__dl_mcount
+                0x000000000000f580                _dl_mcount
+                0x000000000000fa90                _dl_next_tls_modid
+                0x000000000000fb70                _dl_count_modids
+                0x000000000000fbc0                _dl_determine_tlsoffset
+                0x000000000000fd70                _dl_get_tls_static_info
+                0x000000000000fd90                _dl_allocate_tls_storage
+                0x000000000000fe40                __GI__dl_allocate_tls_init
+                0x000000000000fe40                _dl_allocate_tls_init
+                0x00000000000100b0                __GI__dl_allocate_tls
+                0x00000000000100b0                _dl_allocate_tls
+                0x00000000000100e0                _dl_deallocate_tls
+                0x00000000000100e0                __GI__dl_deallocate_tls
+                0x0000000000010160                _dl_update_slotinfo
+                0x00000000000103b0                __GI___tls_get_addr
+                0x00000000000103b0                ___tls_get_addr
+                0x00000000000103f0                _dl_tls_get_addr_soft
+                0x0000000000010460                _dl_add_to_slotinfo
+                0x0000000000010540                __tls_get_addr_slow
+                0x0000000000010570                _dl_get_origin
+                0x00000000000106e0                _dl_scope_free
+                0x00000000000107a0                _dl_make_stack_executable
+                0x00000000000107a0                __GI__dl_make_stack_executable
+                0x0000000000010820                _dl_check_caller
+                0x0000000000010c00                __GI__dl_find_dso_for_object
+                0x0000000000010c00                _dl_find_dso_for_object
+                0x0000000000010cc0                _dl_open
+                0x0000000000010fc0                _dl_show_scope
+                0x0000000000011990                _dl_close_worker
+                0x0000000000012940                _dl_close
+                0x00000000000129a0                _dl_runtime_profile_avx512
+                0x0000000000012e20                _dl_runtime_profile_avx
+                0x00000000000132a0                _dl_runtime_profile_sse
+                0x00000000000134a0                _dl_runtime_resolve_fxsave
+                0x0000000000013520                _dl_runtime_resolve_xsave
+                0x00000000000135f0                _dl_runtime_resolve_xsavec
+                0x00000000000136e0                _dl_exception_create
+                0x00000000000136e0                __GI__dl_exception_create
+                0x00000000000137d0                __GI__dl_exception_create_format
+                0x00000000000137d0                _dl_exception_create_format
+                0x0000000000013ab0                _dl_exception_free
+                0x0000000000013ab0                __GI__dl_exception_free
+                0x0000000000013ae0                _dl_sort_maps
+                0x0000000000013da0                _dl_cache_libcmp
+                0x0000000000013e60                _dl_load_cache_lookup
+                0x0000000000014490                _dl_unload_cache
+                0x0000000000014560                __tunable_set_val
+                0x0000000000014580                __GI___tunables_init
+                0x00000000000149f0                __tunable_get_val
+                0x00000000000149f0                __GI___tunable_get_val
+                0x0000000000014a50                _dl_make_tlsdesc_dynamic
+                0x0000000000014d20                _dl_tlsdesc_resolve_rela_fixup
+                0x0000000000014ec0                _dl_tlsdesc_resolve_hold_fixup
+                0x0000000000014ef0                _dl_unmap
+                0x0000000000014f70                _dl_tlsdesc_return
+                0x0000000000014f80                _dl_tlsdesc_undefweak
+                0x0000000000014f90                _dl_tlsdesc_dynamic
+                0x0000000000015030                _dl_tlsdesc_resolve_rela
+                0x00000000000150a0                _dl_tlsdesc_resolve_hold
+                0x0000000000015120                __tls_get_addr
+                0x0000000000015160                __get_cpu_features
+                0x0000000000015170                _dl_tunable_set_hwcaps
+                0x0000000000015f90                _dl_sysdep_start
+                0x00000000000166d0                _dl_sysdep_start_cleanup
+                0x00000000000166e0                _dl_show_auxv
+                0x0000000000016850                _dl_discover_osversion
+                0x0000000000016a10                _dl_next_ld_env_entry
+                0x0000000000016a50                unsetenv
+                0x0000000000016ab0                malloc
+                0x0000000000016bc0                calloc
+                0x0000000000016c00                free
+                0x0000000000016c40                __sigjmp_save
+                0x0000000000016c50                __strerror_r
+                0x0000000000016d00                __GI___libc_fatal
+                0x0000000000016d00                __libc_fatal
+                0x0000000000016d30                __GI___chk_fail
+                0x0000000000016d30                __chk_fail
+                0x0000000000016d40                __GI___assert_fail
+                0x0000000000016d40                __assert_fail
+                0x0000000000016d90                realloc
+                0x0000000000016e10                __GI___assert_perror_fail
+                0x0000000000016e10                __assert_perror_fail
+                0x0000000000016e80                _itoa
+                0x0000000000016ed0                __strsep
+                0x0000000000016ed0                strsep
+                0x0000000000016ed0                __strsep_g
+                0x0000000000017000                _dl_signal_exception
+                0x0000000000017050                _dl_signal_error
+                0x00000000000170a0                _dl_signal_cexception
+                0x0000000000017120                _dl_signal_cerror
+                0x00000000000171a0                _dl_catch_exception
+                0x0000000000017240                _dl_catch_error
+                0x0000000000017290                _dl_receive_error
+                0x00000000000172d0                _dl_resolve_conflicts
+                0x0000000000017420                __brk
+                0x0000000000017420                brk
+                0x0000000000017470                sbrk
+                0x0000000000017470                __sbrk
+                0x0000000000017500                __getcwd
+                0x0000000000017500                getcwd
+                0x0000000000017900                openat64
+                0x0000000000017960                __alloc_dir
+                0x0000000000017a50                __opendir
+                0x0000000000017a50                opendir
+                0x0000000000017ae0                __fxstatat
+                0x0000000000017ae0                __fxstatat64
+                0x0000000000017ae0                __GI___fxstatat64
+ *fill*         0x0000000000017b21        0xf 
+ .text          0x0000000000017b30       0xd2 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+                0x0000000000017bd0                __libc_check_standard_fds
+ .text          0x0000000000017c02        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+ *fill*         0x0000000000017c02        0xe 
+ .text          0x0000000000017c10       0x25 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+                0x0000000000017c10                __closedir
+                0x0000000000017c10                closedir
+ *fill*         0x0000000000017c35        0xb 
+ .text          0x0000000000017c40       0x7c /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+                0x0000000000017c40                readdir
+                0x0000000000017c40                __readdir64
+                0x0000000000017c40                __readdir
+                0x0000000000017c40                __GI___readdir64
+                0x0000000000017c40                readdir64
+ *fill*         0x0000000000017cbc        0x4 
+ .text          0x0000000000017cc0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+                0x0000000000017cc0                rewinddir
+                0x0000000000017cc0                __rewinddir
+ .text          0x0000000000017cf0       0x81 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+                0x0000000000017cf0                __getdents
+                0x0000000000017cf0                __getdents64
+ *fill*         0x0000000000017d71        0xf 
+ .text          0x0000000000017d80       0x8a /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+                0x0000000000017d80                fdopendir
+                0x0000000000017d80                __fdopendir
+ *fill*         0x0000000000017e0a        0x6 
+ .text          0x0000000000017e10       0x4e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+                0x0000000000017e10                _dl_addr_inside_object
+ *fill*         0x0000000000017e5e        0x2 
+ .text          0x0000000000017e60      0x102 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+                0x0000000000017eb0                __profil
+                0x0000000000017eb0                profil
+ *fill*         0x0000000000017f62        0xe 
+ .text          0x0000000000017f70        0x7 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+                0x0000000000017f70                __profile_frequency
+ *fill*         0x0000000000017f77        0x9 
+ .text          0x0000000000017f80       0x3d /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+                0x0000000000017f80                _xstat
+                0x0000000000017f80                __xstat64
+                0x0000000000017f80                __GI___xstat64
+                0x0000000000017f80                __GI___xstat
+                0x0000000000017f80                __xstat
+ *fill*         0x0000000000017fbd        0x3 
+ .text          0x0000000000017fc0       0x3b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+                0x0000000000017fc0                __GI___fxstat
+                0x0000000000017fc0                __GI___fxstat64
+                0x0000000000017fc0                __fxstat64
+                0x0000000000017fc0                _fxstat
+                0x0000000000017fc0                __fxstat
+ *fill*         0x0000000000017ffb        0x5 
+ .text          0x0000000000018000       0x3d /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+                0x0000000000018000                __GI___lxstat
+                0x0000000000018000                _lxstat
+                0x0000000000018000                __lxstat
+                0x0000000000018000                __lxstat64
+                0x0000000000018000                __GI___lxstat64
+ *fill*         0x000000000001803d        0x3 
+ .text          0x0000000000018040       0x68 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+                0x0000000000018040                __open
+                0x0000000000018040                __open_nocancel
+                0x0000000000018040                __libc_open64
+                0x0000000000018040                __libc_open
+                0x0000000000018040                open64
+                0x0000000000018040                __open64_nocancel
+                0x0000000000018040                open
+                0x0000000000018040                __open64
+ *fill*         0x00000000000180a8        0x8 
+ .text          0x00000000000180b0       0x5d /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+                0x00000000000180b0                __openat64
+                0x00000000000180b0                __openat64_nocancel
+                0x00000000000180b0                __libc_openat64
+                0x00000000000180b0                __openat
+                0x00000000000180b0                openat
+                0x00000000000180b0                __openat_nocancel
+ *fill*         0x000000000001810d        0x3 
+ .text          0x0000000000018110       0x1e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+                0x0000000000018110                __read
+                0x0000000000018110                __libc_read
+                0x0000000000018110                __read_nocancel
+                0x0000000000018110                read
+ *fill*         0x000000000001812e        0x2 
+ .text          0x0000000000018130       0x21 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+                0x0000000000018130                __write
+                0x0000000000018130                write
+                0x0000000000018130                __write_nocancel
+                0x0000000000018130                __libc_write
+ *fill*         0x0000000000018151        0xf 
+ .text          0x0000000000018160       0x21 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+                0x0000000000018160                __lseek64
+                0x0000000000018160                lseek
+                0x0000000000018160                __libc_lseek64
+                0x0000000000018160                llseek
+                0x0000000000018160                __lseek
+                0x0000000000018160                __libc_lseek
+                0x0000000000018160                lseek64
+ *fill*         0x0000000000018181        0xf 
+ .text          0x0000000000018190       0x1f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+                0x0000000000018190                access
+                0x0000000000018190                __access
+ *fill*         0x00000000000181af        0x1 
+ .text          0x00000000000181b0       0x70 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+                0x00000000000181b0                __libc_fcntl
+                0x00000000000181b0                __fcntl_nocancel
+                0x00000000000181b0                __fcntl
+                0x00000000000181b0                fcntl
+ .text          0x0000000000018220       0x1f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+                0x0000000000018220                __libc_close
+                0x0000000000018220                __close_nocancel
+                0x0000000000018220                __close
+                0x0000000000018220                close
+ *fill*         0x000000000001823f        0x1 
+ .text          0x0000000000018240       0xae /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+                0x0000000000018240                __mmap
+                0x0000000000018240                mmap
+                0x0000000000018240                __mmap64
+                0x0000000000018240                mmap64
+ *fill*         0x00000000000182ee        0x2 
+ .text          0x00000000000182f0       0x20 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+                0x00000000000182f0                munmap
+                0x00000000000182f0                __GI___munmap
+                0x00000000000182f0                __GI_munmap
+                0x00000000000182f0                __munmap
+ .text          0x0000000000018310       0x20 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+                0x0000000000018310                __mprotect
+                0x0000000000018310                __GI___mprotect
+                0x0000000000018310                __GI_mprotect
+                0x0000000000018310                mprotect
+ .text          0x0000000000018330       0x20 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+                0x0000000000018330                uname
+                0x0000000000018330                __GI_uname
+                0x0000000000018330                __uname
+                0x0000000000018330                __GI___uname
+ .text          0x0000000000018350       0x41 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+                0x0000000000018350                _Exit
+                0x0000000000018350                __GI__exit
+                0x0000000000018350                _exit
+ *fill*         0x0000000000018391        0xf 
+ .text          0x00000000000183a0        0x8 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+                0x00000000000183a0                __getpid
+                0x00000000000183a0                getpid
+                0x00000000000183a0                __GI_getpid
+                0x00000000000183a0                __GI___getpid
+ .text          0x00000000000183a8        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+ *fill*         0x00000000000183a8        0x8 
+ .text          0x00000000000183b0       0x4f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+                0x00000000000183b0                __sigsetjmp
+                0x00000000000183b0                __GI___sigsetjmp
+ *fill*         0x00000000000183ff        0x1 
+ .text          0x0000000000018400       0x4a /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+                0x0000000000018400                __longjmp
+ *fill*         0x000000000001844a        0x6 
+ .text          0x0000000000018450      0x1cd /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+                0x0000000000018470                __libc_sigaction
+                0x0000000000018600                sigaction
+                0x0000000000018600                __sigaction
+ *fill*         0x000000000001861d        0x3 
+ .text          0x0000000000018620       0x3c /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+                0x0000000000018620                __strdup
+                0x0000000000018620                strdup
+ *fill*         0x000000000001865c        0x4 
+ .text          0x0000000000018660     0x1439 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+                0x0000000000018660                strcmp
+ *fill*         0x0000000000019a99        0x7 
+ .text          0x0000000000019aa0      0x323 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+                0x0000000000019aa0                memchr
+                0x0000000000019aa0                __memchr
+ *fill*         0x0000000000019dc3        0xd 
+ .text          0x0000000000019dd0      0x1f9 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+                0x0000000000019dd0                __rawmemchr
+                0x0000000000019dd0                rawmemchr
+ *fill*         0x0000000000019fc9        0x7 
+ .text          0x0000000000019fd0      0x400 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+                0x0000000000019fd0                bcmp
+                0x0000000000019fd0                memcmp
+ .text          0x000000000001a3d0      0x21a /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+                0x000000000001a3d0                index
+                0x000000000001a3d0                strchr
+ *fill*         0x000000000001a5ea        0x6 
+ .text          0x000000000001a5f0      0x19c /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+                0x000000000001a5f0                strlen
+ *fill*         0x000000000001a78c        0x4 
+ .text          0x000000000001a790      0x218 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+                0x000000000001a790                __strnlen
+                0x000000000001a790                strnlen
+ *fill*         0x000000000001a9a8        0x8 
+ .text          0x000000000001a9b0       0xdc /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+                0x000000000001a9b0                stpcpy
+                0x000000000001a9b0                __stpcpy
+ *fill*         0x000000000001aa8c        0x4 
+ .text          0x000000000001aa90       0x97 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+                0x000000000001aa90                strcspn
+ *fill*         0x000000000001ab27        0x9 
+ .text          0x000000000001ab30      0x1ed /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+                0x000000000001ab30                mempcpy
+                0x000000000001ab30                __mempcpy
+                0x000000000001ab40                memmove
+                0x000000000001ab40                memcpy
+ *fill*         0x000000000001ad1d        0x3 
+ .text          0x000000000001ad20       0xda /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+                0x000000000001ad20                memset
+ *fill*         0x000000000001adfa        0x6 
+ .text          0x000000000001ae00       0x20 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+                0x000000000001ae00                setitimer
+                0x000000000001ae00                __setitimer
+                0x000000000001ae00                __GI_setitimer
+                0x000000000001ae00                __GI___setitimer
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000      0x172
+ .text.unlikely
+                0x0000000000000000      0x172 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+
+.fini
+ *(SORT(.fini))
+
+.rodata         0x0000000000000000      0xd88
+ *(.rodata)
+ .rodata        0x0000000000000000      0xd48 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+                0x0000000000000ca0                __GI__itoa_lower_digits
+                0x0000000000000ca0                _itoa_lower_digits
+ .rodata        0x0000000000000d48       0x40 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+
+.rodata.str1.1  0x0000000000000000     0x11fc
+ .rodata.str1.1
+                0x0000000000000000     0x11e8 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ .rodata.str1.1
+                0x00000000000011e8       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+
+.rodata.str1.8  0x0000000000000000     0x2529
+ .rodata.str1.8
+                0x0000000000000000     0x2529 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+
+.rodata.str1.16
+                0x0000000000000000      0x376
+ .rodata.str1.16
+                0x0000000000000000      0x376 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+
+.rodata.cst16   0x0000000000000000       0x20
+ .rodata.cst16  0x0000000000000000       0x20 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+
+.rodata.cst4    0x0000000000000000        0x4
+ .rodata.cst4   0x0000000000000000        0x4 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+
+.rodata.str1.32
+                0x0000000000000000       0x3b
+ .rodata.str1.32
+                0x0000000000000000       0x3b /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x2ea4
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000     0x24b8 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+                                       0x2504 (size before relaxing)
+ *fill*         0x00000000000024b8        0x0 
+ .eh_frame      0x00000000000024b8       0x68 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .eh_frame      0x0000000000002520       0x38 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .eh_frame      0x0000000000002558       0x48 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .eh_frame      0x00000000000025a0       0x38 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .eh_frame      0x00000000000025d8       0x68 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .eh_frame      0x0000000000002640       0x50 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .eh_frame      0x0000000000002690       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .eh_frame      0x00000000000026c0       0x48 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .eh_frame      0x0000000000002708       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .eh_frame      0x0000000000002738       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .eh_frame      0x0000000000002768       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .eh_frame      0x0000000000002798       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .eh_frame      0x00000000000027c8       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .eh_frame      0x00000000000027f8       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .eh_frame      0x0000000000002828       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .eh_frame      0x0000000000002858       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .eh_frame      0x0000000000002888       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .eh_frame      0x00000000000028b8       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .eh_frame      0x00000000000028e8       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .eh_frame      0x0000000000002918       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .eh_frame      0x0000000000002948       0x70 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .eh_frame      0x00000000000029b8       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+ .eh_frame      0x00000000000029e8       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .eh_frame      0x0000000000002a18       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+ .eh_frame      0x0000000000002a48       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .eh_frame      0x0000000000002a78       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+ .eh_frame      0x0000000000002aa8       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .eh_frame      0x0000000000002ad8       0x48 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .eh_frame      0x0000000000002b20       0xe0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+                                         0xe8 (size before relaxing)
+ .eh_frame      0x0000000000002c00       0x50 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+ .eh_frame      0x0000000000002c50       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .eh_frame      0x0000000000002c80       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .eh_frame      0x0000000000002cb0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .eh_frame      0x0000000000002ce0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .eh_frame      0x0000000000002d10       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .eh_frame      0x0000000000002d40       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .eh_frame      0x0000000000002d70       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .eh_frame      0x0000000000002da0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .eh_frame      0x0000000000002dd0       0x38 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .eh_frame      0x0000000000002e08       0x40 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .eh_frame      0x0000000000002e48       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .eh_frame      0x0000000000002e78       0x2c /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+                                         0x30 (size before relaxing)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+ *(.igot)
+
+.got.plt
+ *(.got.plt)
+ *(.igot.plt)
+
+.data           0x0000000000000000      0xf78
+ *(.data)
+ .data          0x0000000000000000      0xf78 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+                0x0000000000000000                _rtld_global
+                0x0000000000000000                _rtld_local
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.data.rel.ro    0x0000000000000000      0x7e4
+ .data.rel.ro   0x0000000000000000      0x7e4 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+                0x00000000000000b0                __pointer_chk_guard_local
+                0x00000000000000b8                _dl_skip_args
+                0x00000000000000c0                __GI__dl_argv
+                0x00000000000000c0                _dl_argv
+                0x00000000000000c8                _dl_argc
+                0x00000000000000e0                _rtld_global_ro
+                0x00000000000000e0                _rtld_local_ro
+                0x00000000000002e0                __stack_prot
+                0x00000000000007d0                _dl_random
+                0x00000000000007d8                __libc_stack_end
+                0x00000000000007d8                __GI___libc_stack_end
+                0x00000000000007e0                __GI___libc_enable_secure
+                0x00000000000007e0                __libc_enable_secure
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000      0x140
+ *(.bss)
+ .bss           0x0000000000000000      0x118 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+                0x00000000000000e0                __libc_multiple_libcs
+                0x0000000000000110                __curbrk
+ .bss           0x0000000000000118        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .bss           0x0000000000000118        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+ .bss           0x0000000000000118        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .bss           0x0000000000000118        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .bss           0x0000000000000118        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .bss           0x0000000000000118        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .bss           0x0000000000000118        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .bss           0x0000000000000118        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .bss           0x0000000000000118       0x20 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .bss           0x0000000000000138        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+ .bss           0x0000000000000138        0x8 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+                0x0000000000000138                _environ
+                0x0000000000000138                __environ
+                0x0000000000000138                environ
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .bss           0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+ *(COMMON)
+ COMMON         0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ COMMON         0x0000000000000140        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss)
+ *(LARGE_COMMON)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0xb80
+ *(.comment)
+ .comment       0x0000000000000000      0x6d4 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ .comment       0x00000000000006d4       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .comment       0x0000000000000702       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+ .comment       0x0000000000000730       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .comment       0x000000000000075e       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .comment       0x000000000000078c       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .comment       0x00000000000007ba       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .comment       0x00000000000007e8       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .comment       0x0000000000000816       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .comment       0x0000000000000844       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .comment       0x0000000000000872       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .comment       0x00000000000008a0       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .comment       0x00000000000008ce       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .comment       0x00000000000008fc       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .comment       0x000000000000092a       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .comment       0x0000000000000958       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .comment       0x0000000000000986       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .comment       0x00000000000009b4       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .comment       0x00000000000009e2       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .comment       0x0000000000000a10       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .comment       0x0000000000000a3e       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .comment       0x0000000000000a6c       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .comment       0x0000000000000a9a       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .comment       0x0000000000000ac8       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .comment       0x0000000000000af6       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+ .comment       0x0000000000000b24       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .comment       0x0000000000000b52       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.gnu.warning.llseek
+                0x0000000000000000       0x3f
+ .gnu.warning.llseek
+                0x0000000000000000       0x3f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0xff0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x7d0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ .debug_aranges
+                0x00000000000007d0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_aranges
+                0x0000000000000800       0x20 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_aranges
+                0x0000000000000820       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_aranges
+                0x0000000000000850       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_aranges
+                0x0000000000000880       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_aranges
+                0x00000000000008b0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_aranges
+                0x00000000000008e0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_aranges
+                0x0000000000000910       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_aranges
+                0x0000000000000940       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_aranges
+                0x0000000000000970       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_aranges
+                0x00000000000009a0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_aranges
+                0x00000000000009d0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_aranges
+                0x0000000000000a00       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_aranges
+                0x0000000000000a30       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_aranges
+                0x0000000000000a60       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_aranges
+                0x0000000000000a90       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_aranges
+                0x0000000000000ac0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_aranges
+                0x0000000000000af0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_aranges
+                0x0000000000000b20       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_aranges
+                0x0000000000000b50       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_aranges
+                0x0000000000000b80       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_aranges
+                0x0000000000000bb0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_aranges
+                0x0000000000000be0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_aranges
+                0x0000000000000c10       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_aranges
+                0x0000000000000c40       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_aranges
+                0x0000000000000c70       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_aranges
+                0x0000000000000ca0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_aranges
+                0x0000000000000cd0       0x20 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_aranges
+                0x0000000000000cf0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_aranges
+                0x0000000000000d20       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_aranges
+                0x0000000000000d50       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_aranges
+                0x0000000000000d80       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_aranges
+                0x0000000000000db0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_aranges
+                0x0000000000000de0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_aranges
+                0x0000000000000e10       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_aranges
+                0x0000000000000e40       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_aranges
+                0x0000000000000e70       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_aranges
+                0x0000000000000ea0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_aranges
+                0x0000000000000ed0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_aranges
+                0x0000000000000f00       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_aranges
+                0x0000000000000f30       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_aranges
+                0x0000000000000f60       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_aranges
+                0x0000000000000f90       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_aranges
+                0x0000000000000fc0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0xbd285
+ *(.debug_info)
+ .debug_info    0x0000000000000000    0x94d0d /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ .debug_info    0x0000000000094d0d      0xab9 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_info    0x00000000000957c6      0x6ad /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_info    0x0000000000095e73     0x1dae /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_info    0x0000000000097c21     0x1e3e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_info    0x0000000000099a5f     0x1d56 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_info    0x000000000009b7b5     0x2165 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_info    0x000000000009d91a     0x1f2d /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_info    0x000000000009f847     0x2807 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_info    0x00000000000a204e      0xb12 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_info    0x00000000000a2b60     0x37f6 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_info    0x00000000000a6356      0x8e0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_info    0x00000000000a6c36      0x8df /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_info    0x00000000000a7515      0x8e0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_info    0x00000000000a7df5     0x2048 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_info    0x00000000000a9e3d     0x2066 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_info    0x00000000000abea3     0x1f8e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_info    0x00000000000ade31     0x1f8e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_info    0x00000000000afdbf      0x818 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_info    0x00000000000b05d7     0x1ed3 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_info    0x00000000000b24aa     0x221f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_info    0x00000000000b46c9     0x1efe /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_info    0x00000000000b65c7     0x3bc8 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_info    0x00000000000ba18f       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_info    0x00000000000ba1bd       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_info    0x00000000000ba1eb       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_info    0x00000000000ba219      0x7d7 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_info    0x00000000000ba9f0       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_info    0x00000000000baa1e       0xf8 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_info    0x00000000000bab16       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_info    0x00000000000bab44       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_info    0x00000000000bab72     0x22e0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_info    0x00000000000bce52      0x20b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_info    0x00000000000bd05d       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_info    0x00000000000bd08b       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_info    0x00000000000bd0b9       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_info    0x00000000000bd0e7       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_info    0x00000000000bd115       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_info    0x00000000000bd143       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_info    0x00000000000bd171       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_info    0x00000000000bd19f       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_info    0x00000000000bd1cd       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_info    0x00000000000bd1fb       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_info    0x00000000000bd229       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_info    0x00000000000bd257       0x2e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_abbrev   0x0000000000000000    0x10640
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000     0xbce5 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ .debug_abbrev  0x000000000000bce5      0x23b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_abbrev  0x000000000000bf20      0x127 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_abbrev  0x000000000000c047      0x361 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_abbrev  0x000000000000c3a8      0x356 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_abbrev  0x000000000000c6fe      0x32f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_abbrev  0x000000000000ca2d      0x3b2 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_abbrev  0x000000000000cddf      0x36f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_abbrev  0x000000000000d14e      0x35d /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_abbrev  0x000000000000d4ab      0x2bb /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_abbrev  0x000000000000d766      0x39a /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_abbrev  0x000000000000db00      0x188 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_abbrev  0x000000000000dc88      0x197 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_abbrev  0x000000000000de1f      0x188 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_abbrev  0x000000000000dfa7      0x36f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_abbrev  0x000000000000e316      0x37e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_abbrev  0x000000000000e694      0x381 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_abbrev  0x000000000000ea15      0x381 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_abbrev  0x000000000000ed96      0x193 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_abbrev  0x000000000000ef29      0x33d /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_abbrev  0x000000000000f266      0x3cc /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_abbrev  0x000000000000f632      0x372 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_abbrev  0x000000000000f9a4      0x436 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_abbrev  0x000000000000fdda       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_abbrev  0x000000000000fdee       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_abbrev  0x000000000000fe02       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_abbrev  0x000000000000fe16      0x190 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_abbrev  0x000000000000ffa6       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_abbrev  0x000000000000ffba       0x8b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_abbrev  0x0000000000010045       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_abbrev  0x0000000000010059       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_abbrev  0x000000000001006d      0x397 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_abbrev  0x0000000000010404      0x14c /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_abbrev  0x0000000000010550       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_abbrev  0x0000000000010564       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_abbrev  0x0000000000010578       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_abbrev  0x000000000001058c       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_abbrev  0x00000000000105a0       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_abbrev  0x00000000000105b4       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_abbrev  0x00000000000105c8       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_abbrev  0x00000000000105dc       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_abbrev  0x00000000000105f0       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_abbrev  0x0000000000010604       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_abbrev  0x0000000000010618       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_abbrev  0x000000000001062c       0x14 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_line     0x0000000000000000    0x17dac
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000    0x1135a /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ .debug_line    0x000000000001135a      0x2c3 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_line    0x000000000001161d      0x193 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_line    0x00000000000117b0      0x476 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_line    0x0000000000011c26      0x481 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_line    0x00000000000120a7      0x432 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_line    0x00000000000124d9      0x48d /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_line    0x0000000000012966      0x4b7 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_line    0x0000000000012e1d      0x44d /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_line    0x000000000001326a      0x31c /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_line    0x0000000000013586      0x4cd /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_line    0x0000000000013a53      0x21e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_line    0x0000000000013c71      0x21f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_line    0x0000000000013e90      0x21f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_line    0x00000000000140af      0x477 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_line    0x0000000000014526      0x47b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_line    0x00000000000149a1      0x42e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_line    0x0000000000014dcf      0x42f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_line    0x00000000000151fe      0x201 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_line    0x00000000000153ff      0x441 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_line    0x0000000000015840      0x478 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_line    0x0000000000015cb8      0x42f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_line    0x00000000000160e7      0x528 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_line    0x000000000001660f       0x59 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_line    0x0000000000016668       0x59 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_line    0x00000000000166c1       0x59 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_line    0x000000000001671a      0x20f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_line    0x0000000000016929       0x57 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_line    0x0000000000016980       0x75 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_line    0x00000000000169f5       0x5f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_line    0x0000000000016a54       0x61 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_line    0x0000000000016ab5      0x526 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_line    0x0000000000016fdb       0xc2 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_line    0x000000000001709d      0x48f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_line    0x000000000001752c      0x124 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_line    0x0000000000017650       0xd3 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_line    0x0000000000017723      0x14c /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_line    0x000000000001786f       0xde /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_line    0x000000000001794d       0xa5 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_line    0x00000000000179f2       0xa5 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_line    0x0000000000017a97       0x95 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_line    0x0000000000017b2c       0x80 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_line    0x0000000000017bac       0xfc /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_line    0x0000000000017ca8       0xab /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_line    0x0000000000017d53       0x59 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000    0x7cd08
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x5e85d /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ .debug_str     0x000000000005e85d      0x78f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_str     0x000000000005efec      0x555 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_str     0x000000000005f541     0x167e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_str     0x0000000000060bbf     0x16de /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_str     0x000000000006229d     0x1623 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_str     0x00000000000638c0     0x1789 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_str     0x0000000000065049     0x1773 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_str     0x00000000000667bc     0x1cb0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_str     0x000000000006846c      0x833 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_str     0x0000000000068c9f     0x2796 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_str     0x000000000006b435      0x6be /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_str     0x000000000006baf3      0x6bc /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_str     0x000000000006c1af      0x6c1 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_str     0x000000000006c870     0x18cf /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_str     0x000000000006e13f     0x18b9 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_str     0x000000000006f9f8     0x1845 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_str     0x000000000007123d     0x1847 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_str     0x0000000000072a84      0x650 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_str     0x00000000000730d4     0x1808 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_str     0x00000000000748dc     0x190f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_str     0x00000000000761eb     0x180e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_str     0x00000000000779f9     0x287f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_str     0x000000000007a278       0x5e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_str     0x000000000007a2d6       0x5e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_str     0x000000000007a334       0x5f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_str     0x000000000007a393      0x615 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_str     0x000000000007a9a8       0x5f /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_str     0x000000000007aa07      0x1fb /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_str     0x000000000007ac02       0x58 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_str     0x000000000007ac5a       0x5b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_str     0x000000000007acb5     0x199b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_str     0x000000000007c650      0x212 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_str     0x000000000007c862       0x58 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_str     0x000000000007c8ba       0x65 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_str     0x000000000007c91f       0x68 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_str     0x000000000007c987       0x58 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_str     0x000000000007c9df       0x65 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_str     0x000000000007ca44       0x65 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_str     0x000000000007caa9       0x65 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_str     0x000000000007cb0e       0x58 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_str     0x000000000007cb66       0x59 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_str     0x000000000007cbbf       0x76 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_str     0x000000000007cc35       0x75 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_str     0x000000000007ccaa       0x5e /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_loc      0x0000000000000000    0x31e37
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000    0x2fc52 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ .debug_loc     0x000000000002fc52      0x138 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_loc     0x000000000002fd8a       0x82 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_loc     0x000000000002fe0c      0x1a8 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_loc     0x000000000002ffb4       0x4c /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_loc     0x0000000000030000      0x313 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_loc     0x0000000000030313       0xbe /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_loc     0x00000000000303d1       0x65 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_loc     0x0000000000030436      0x23a /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_loc     0x0000000000030670      0x182 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_loc     0x00000000000307f2      0x182 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_loc     0x0000000000030974      0x182 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_loc     0x0000000000030af6      0x299 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_loc     0x0000000000030d8f      0x1b7 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_loc     0x0000000000030f46       0x5b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_loc     0x0000000000030fa1       0x5b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_loc     0x0000000000030ffc       0x5b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_loc     0x0000000000031057       0x5b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_loc     0x00000000000310b2      0x225 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_loc     0x00000000000312d7       0x5b /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_loc     0x0000000000031332      0x57d /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_loc     0x00000000000318af      0x148 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_loc     0x00000000000319f7      0x339 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_loc     0x0000000000031d30      0x107 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-strdup.os)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x7ac0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x7550 /home/ec2-user/myndai/client/glibc-2.27/build/elf/dl-allobjs.os
+ .debug_ranges  0x0000000000007550       0xa0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_ranges  0x00000000000075f0       0xb0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_ranges  0x00000000000076a0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_ranges  0x00000000000076d0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_ranges  0x0000000000007700       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_ranges  0x0000000000007730       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_ranges  0x0000000000007760       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_ranges  0x0000000000007790       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_ranges  0x00000000000077c0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_ranges  0x00000000000077f0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_ranges  0x0000000000007820       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_ranges  0x0000000000007850       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_ranges  0x0000000000007880       0x60 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_ranges  0x00000000000078e0       0x30 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_ranges  0x0000000000007910       0x60 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_ranges  0x0000000000007970       0x90 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_ranges  0x0000000000007a00       0xc0 /home/ec2-user/myndai/client/glibc-2.27/build/elf/rtld-libc.a(rtld-sigaction.os)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/ec2-user/myndai/client/glibc-2.27/build/elf/librtld.os elf64-x86-64)

@@ -208,12 +208,25 @@ const db = mysql.createConnection({
   database: 'userDetails',
 });
 
+const dbNutrition = mysql.createConnection({
+  host: '3.111.58.101',
+  user: 'root',
+  password: 'Password@123',
+  database: 'nutrition_database', // separate DB for nutrition-related queries
+});
 db.connect((err) => {
   if (err) {
     console.error('Error connecting to the database: ', err);
     return;
   }
   console.log('Connected to the database');
+});
+dbNutrition.connect((err) => {
+  if (err) {
+    console.error('Error connecting to the database: ', err);
+    return;
+  }
+  console.log('Connected to nutrition database');
 });
 app.post('/api/register', (req, res) => {
     const { email, mobileNumber, username, password } = req.body;
@@ -261,6 +274,42 @@ app.get('/api/getUsers', (req, res) => {
       return res.status(500).json({ message: 'Error fetching users' });
     }
     res.status(200).json({ users: results });  // Return the user data
+  });
+});
+
+// API endpoint to fetch nutrition data
+app.get('/api/nutrition', (req, res) => {
+  const { age, gender, goal } = req.query;
+
+  // Validate the input
+  if (!age || !gender || !goal) {
+    return res.status(400).json({ error: 'Missing required parameters' });
+  }
+
+  // SQL query
+   const query = `
+    SELECT * FROM nutrition_table
+    WHERE Age = ? AND Gender = ? AND Fitness_Goal = ?
+  `;
+	console.log('Executing query:', query, 'With values:', [age, gender, goal]);
+
+  //const query = `
+  //  SELECT count(*) FROM nutrition_table
+  //`;
+  // Execute the query
+  dbNutrition.execute(query, [age, gender, goal], (err, results) => {
+  console.log("query is", query);
+    if (err) {
+      console.error('Error executing query:', err);
+      return res.status(500).json({ error: 'Database error' });
+    }
+
+    if (results.length === 0) {
+      return res.status(404).json({ error: 'No data found' });
+    }
+    // Send results as JSON
+    res.json(results[0]);
+console.log("resssss", res);
   });
 });
 

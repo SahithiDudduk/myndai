@@ -1,0 +1,17 @@
+/home/ec2-user/myndai/client/glibc-2.27/build/dummy.o: \
+ /home/ec2-user/myndai/client/glibc-2.27/build/dummy.c \
+ ../include/stdc-predef.h \
+ /home/ec2-user/myndai/client/glibc-2.27/build/libc-modules.h \
+ ../include/libc-symbols.h \
+ /home/ec2-user/myndai/client/glibc-2.27/build/config.h \
+ ../sysdeps/generic/symbol-hacks.h
+
+../include/stdc-predef.h:
+
+/home/ec2-user/myndai/client/glibc-2.27/build/libc-modules.h:
+
+../include/libc-symbols.h:
+
+/home/ec2-user/myndai/client/glibc-2.27/build/config.h:
+
+../sysdeps/generic/symbol-hacks.h:
